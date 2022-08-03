@@ -1,0 +1,20 @@
+{
+"parallelsuites":"1",
+"testsuites":[
+	{
+	 "runmode":"Y",
+	 "name":"CreateSuite",
+	 "suitefilename":"suites//CreateSuite.json",
+	 "testdatajsonfile":"data//CreateSuiteData.json",
+	 "paralleltests":"N"
+	},
+	{
+	 "runmode":"Y",
+	 "name":"DeleteSuite",
+	 "suitefilename":"suites//DeleteSuite.json",
+	 "testdatajsonfile":"data//DeleteSuiteData.json",
+	 "paralleltests":"N"
+	}
+]
+
+}

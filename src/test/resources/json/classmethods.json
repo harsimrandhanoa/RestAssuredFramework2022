@@ -1,0 +1,22 @@
+{
+    "classdetails":[
+		{
+		 "class":"rest.retail.testcases.Login",
+		 "methods":["doLogin"]
+		},
+		{
+		 "class":"rest.retail.testcases.AddCategory",
+		 "methods":["addCategory"]
+		},
+		{
+		 "class":"rest.retail.testcases.AddProduct",
+		 "methods":["addProduct"]
+		},
+		{
+		 "class":"rest.retail.testcases.DeleteProduct",
+		 "methods":["deleteProduct"]
+		}
+		
+		
+	]
+}

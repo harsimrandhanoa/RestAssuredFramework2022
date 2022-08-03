@@ -1,0 +1,17 @@
+{
+   "suitename":"CreateSuite",
+     "testcases":[
+      {
+       "name":"Add Category",
+       "runmode" : "Y",
+       "methods":["addCategory"],
+       "dataflag":"AddCategory"
+       },
+        { 
+       "name":"Add Product",
+       "runmode" : "Y",
+       "methods":["addProduct"],
+       "dataflag":"AddProduct"
+	  }
+     ]
+  }

@@ -1,0 +1,12 @@
+{
+   "suitename":"DeleteSuite",
+     "testcases":[
+     
+       { 
+       "name":"Delete Product",
+       "runmode" : "Y",
+       "methods":["deleteProduct"],
+       "dataflag":"DeleteProduct"
+	  }
+     ]
+  }

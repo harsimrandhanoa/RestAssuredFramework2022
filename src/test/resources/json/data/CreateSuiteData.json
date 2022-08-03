@@ -1,0 +1,77 @@
+{
+   "Login":[
+	 {
+	  "runmode":"Y",
+	  "username":"harsimran",
+	  "password":"abc",
+	  "expectedstatus":"Login failed"
+	  },
+	 {
+	  "runmode":"Y",
+	  "username":"admin",
+	  "password":"whizdom",
+	  "expectedstatus":"Login succeed"
+	  
+	 }
+   ],	
+   "AddCategory":[
+	 {
+	  "runmode":"Y",
+	  "categoryname":"PC"
+	 },
+	 {
+	  "runmode":"Y",
+	  "categoryname":"Bikes"
+	 },
+	 {
+	   "runmode":"Y",
+	   "categoryname":"eBooks"
+	 }
+    ],	
+	"AddProduct":[
+	 {
+	 "runmode":"Y",
+	 "productname":"New Laptop",
+	 "categoryname":"PC",
+	 "price":"100.00",
+	 "quantity":"2"
+	 },
+	 {
+	  "runmode":"Y",
+	  "productname":"Python Book",
+	  "categoryname":"eBooks",
+	  "price":"12.00",
+	  "quantity":"10"
+	  },
+	  {
+	  "runmode":"Y",
+	  "productname":" Mountain Bike",
+	  "categoryname":"Bikes",
+	  "price":"25.00",
+	  "quantity":"20"
+	  }
+	  ],	
+	  "AddProduct1":[
+	 {
+	 "runmode":"Y",
+	 "productname":"Mining Laptop",
+	 "categoryname":"PC",
+	 "price":"100.00",
+	 "quantity":"10"
+	 },
+	 {
+	  "runmode":"Y",
+	  "productname":"Python book",
+	  "categoryname":"eBooks",
+	  "price":"12.00",
+	  "quantity":"10"
+	  },
+	  {
+	  "runmode":"Y",
+	  "productname":"Exercise Bike",
+	  "categoryname":"Bikes",
+	  "price":"25.00",
+	  "quantity":"20"
+	  }
+	  ]			
+	}

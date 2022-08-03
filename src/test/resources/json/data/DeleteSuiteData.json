@@ -1,0 +1,25 @@
+{
+   "DeleteProduct":[
+   {
+	 "runmode":"Y",
+	 "productname":"New Laptop",
+	 "categoryname":"PC",
+	 "price":"100.00",
+	 "quantity":"2"
+	 },
+	 {
+	  "runmode":"Y",
+	  "productname":"Python Book",
+	  "categoryname":"eBooks",
+	  "price":"12.00",
+	  "quantity":"10"
+	  },
+	  {
+	  "runmode":"Y",
+	  "productname":"Mountain Bike",
+	  "categoryname":"Bikes",
+	  "price":"25.00",
+	  "quantity":"20"
+	  }
+	  ]			
+	}
