@@ -2,11 +2,8 @@ package com.retail.base.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Properties;
-
-import com.retail.base.BaseTest;
 
 public class DatabaseConnection{
 	Connection conn = null;

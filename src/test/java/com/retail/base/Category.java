@@ -1,15 +1,10 @@
 package com.retail.base;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Category {
-
-	public String categoryname;
-
-	public String getCategoryname() {
-		return categoryname;
-	}
-
-	public void setCategoryname(String categoryName) {
-		this.categoryname = categoryName;
-	}
-
+	private String categoryname;
 }

@@ -4,7 +4,6 @@ import static io.restassured.RestAssured.given;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
@@ -13,7 +12,10 @@ import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.retail.base.*;
+import com.retail.base.BaseTest;
+import com.retail.base.Product;
+import com.retail.base.ProductPojo;
+
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

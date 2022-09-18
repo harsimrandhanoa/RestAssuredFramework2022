@@ -1,7 +1,5 @@
 package com.retail.base;
 
-import static io.restassured.RestAssured.given;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,25 +9,18 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.io.StringWriter;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.Properties;
 
 import org.apache.commons.io.output.WriterOutputStream;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.testng.ITestContext;
-import org.testng.Reporter;
 import org.testng.SkipException;
-//import org.apache.commons.io.output.WriterOutputStream;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;

@@ -2,8 +2,6 @@ package rest.retail.testcases;
 
 import static io.restassured.RestAssured.given;
 
-import java.util.HashMap;
-
 import org.json.simple.JSONObject;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;

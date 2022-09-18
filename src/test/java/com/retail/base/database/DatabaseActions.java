@@ -6,7 +6,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.retail.base.BaseTest;
 
 public class DatabaseActions {
 	Connection conn;
